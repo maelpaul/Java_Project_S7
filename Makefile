@@ -50,12 +50,6 @@ autotest: source utest
 	java -cp build -ea tec.LancerTest tec.TestMonteeSportif
 	java -cp build -ea tec.LancerTest tec.TestMonteeTetu
 
-exemple:
-
-	javac -d build other/ExecutionExemple.java
-	java -ea -cp build ExecutionExemple
-
-
 clean:
 
 	rm -rf build/*.class

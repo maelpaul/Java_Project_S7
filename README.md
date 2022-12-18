@@ -12,4 +12,4 @@ Compiler et exécuter les tests:
     `make`
 
 Clean:  
-    `make clean`
+    `make cleanall`
